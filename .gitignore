@@ -1,6 +1,7 @@
 # My own ignored files
 CW_Dataset/
 Models/
+Plan/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
