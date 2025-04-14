@@ -3,8 +3,7 @@ CW_Dataset/
 Models/
 Plan/
 /Labs/
-/base_dataset/
-/HOG_dataset/
+/dataset_as_pkl/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -353,7 +352,6 @@ StyleCopReport.xml
 *.tmp
 *.tmp_proj
 *_wpftmp.csproj
-*.log
 *.tlog
 *.vspscc
 *.vssscc
@@ -565,10 +563,6 @@ node_modules/
 *.dsw
 *.dsp
 
-# Visual Studio 6 technical files
-*.ncb
-*.aps
-
 # Visual Studio LightSwitch build output
 **/*.HTMLClient/GeneratedArtifacts
 **/*.DesktopClient/GeneratedArtifacts
@@ -588,7 +582,6 @@ paket-files/
 .cr/personal
 
 # Python Tools for Visual Studio (PTVS)
-__pycache__/
 *.pyc
 
 # Cake - Uncomment if you are using it
@@ -641,15 +634,9 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
 
 # Local History for Visual Studio Code
-.history/
 
 # Windows Installer files from build outputs
 *.cab
@@ -660,4 +647,3 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-/Extracted_features/
