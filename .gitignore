@@ -647,3 +647,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/Personal_Dataset/
